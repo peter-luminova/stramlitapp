@@ -256,6 +256,4 @@ with col2:
         st.info("👈 Enter markdown text, then click '⚡ Process' to see the output.")
 
 st.divider()
-st.markdown("""
-
-<div style='text-align: center; color: #666;'> Made with ❤️ using Streamlit | <a href='https://github.com' target='_blank'>GitHub</a> </div> """, unsafe_allow_html=True) ```
+st.markdown("<div style='text-align: center; color: #666;'> Made with ❤️ using Streamlit | <a href='https://github.com' target='_blank'>GitHub</a> </div>", unsafe_allow_html=True) 
